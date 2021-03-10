@@ -1,0 +1,19 @@
+@media screen and (max-width: 720px) {
+    /* mobile screen */
+    div {
+        background-color: blue;
+        font: 1rem;
+    }
+}
+@media screen and (min-width: 721px) {
+    div {
+        background-color: red;
+        font: 2rem;
+    }
+}
+@media screen and (min-width: 1081px) {
+    div {
+        background: green;
+        font: 2.5rem;
+    }
+}
